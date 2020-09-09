@@ -4,34 +4,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
   <script src="https://use.fontawesome.com/d6edd70b37.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+  
   <title>Evan Doherty</title>
 </head>
 <body>
   
   <nav class='headerDiv'>
-    <a class='logo'>EDcoding</a>
-    <!-- <button onClick={toggleMenu} className='toggle'>
-      {isHidden ? 
-        <i class="fa fa-bars" aria-hidden="true"></i> : 
-        <i class="fa fa-times" aria-hidden="true"></i>
-        }
-    </button> -->
+    <a class='logo'><img src="assets/IMG_1966.JPG" alt=""></a>
+    <button onclick="toggleMenu()" class='toggle'>
+      <i class="fas fa-bars" aria-hidden="true"></i>  
+    </button>
     <ul class='menu'>
-      <li class='item'><Link to='/about'>About Me</Link></li>
-      <li class='item'><Link tabindex='0' to='/portfolio'>Portfolio</Link></li>
-      <li class='item'><a href='#'><i class="fas fa-envelope"></i></a></li>
-      <li class='item'><a href='#'><i class="fab fa-facebook"></i></a></li>
-      <li class='item'><a href='https://www.linkedin.com/in/evan-doherty-0310a544/'><i class="fab fa-linkedin-in"></i></a></li>
-      <li class='item'><a href='https://github.com/edoherty77'><i class="fab fa-github"></i></a></li>   
+      <li class='item'><a>Home</a></li>
+      <li class='item'><a>Portfolio</a></li>
+      <li class='item'><a>Skills/Education</a></li>
+      <li class='item'><a>About Me</a></li>
+      <li class='item'><a>Contact</a></li>
     </ul>
   </nav>
+  <div class='container'>
+    <section id='home' class='row'>
+     
+        <div id='home-img' class='sm-col-12 col-lg-4'>
+          <img  src="assets/IMG_1966.JPG" alt="fuck you">
+        </div>
+        <div class='sm-col-12 col-lg-8'>
+          <ul>
+            <li class='home-about'>
+              orem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a 
+              type specimen book. It has survived not only five centuries, but also the 
+              leap into electronic typesetting.
+            </li>
+            <li class='home-about'>
+              orem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a 
+              type specimen book. It has survived not only five centuries, but also the 
+              leap into electronic typesetting.
+            </li>
+            <li class='home-about'>
+              orem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a 
+              type specimen book. It has survived not only five centuries, but also the 
+              leap into electronic typesetting.
+            </li>
+       
+          </ul>
+        </div>
+    </section>
+    <section class='row' id='portfolio'>
+      <h1 class='col-12'>
+        Portfolio
+      </h1>
+      <div class='row projects'>
+        <div class='card col-sm-12 col-md-12 col-lg-4'>
+          
+          <img class='card-img-top' src="assets/IMG_1966.JPG" alt="fu">
+          <div class='card-body'>
+            <h1 class='card-title'>project</h1>
+            <p class='card-text'>text about prject is gunna go here how ya doen</p>
+            <a href="#" class='btn btn-primary'>go to project</a>
+          </div>
+        </div>
+        <div class='card col-sm-12 col-md-12 col-lg-4'>
+        
+          <img class='card-img-top' src="assets/IMG_1966.JPG" alt="fu">
+          <div class='card-body'>
+            <h1 class='card-title'>project</h1>
+            <p class='card-text'>text about prject is gunna go here how ya doen</p>
+            <a href="#" class='btn btn-primary'>go to project</a>
+          </div>
+        </div>
+        <div class='card col-sm-12 col-md-12 col-lg-4'>
+      
+          <img class='card-img-top' src="assets/IMG_1966.JPG" alt="fu">
+          <div class='card-body'>
+            <h1 class='card-title'>project</h1>
+            <p class='card-text'>text about prject is gunna go here how ya doen</p>
+            <a href="#" class='btn btn-primary'>go to project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='row' id='skills-education'>
+      Skills/Education
+    </section> 
+  </div>
+ 
+  
 
+  <!-- <section id='about-me'>About Me</section> -->
+  
+ 
 
+  <!-- <footer id='footer'>
+    Footer -->
+    <!-- <ul id="footer">
+      <li><a href='#'><i class="fas fa-envelope"></i></a></li>
+      <li><a href='#'><i class="fab fa-facebook"></i></a></li>
+      <li><a href='https://www.linkedin.com/in/evan-doherty-0310a544/'><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href='https://github.com/edoherty77'><i class="fab fa-github"></i></a></li> 
+    </ul> -->
+  <!-- </footer> -->
 
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
 
