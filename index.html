@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
   <script src="https://use.fontawesome.com/d6edd70b37.js"></script>
 
@@ -30,7 +31,9 @@
       <li class='item'><a>Contact</a></li>
     </ul>
   </nav>
-  <div class='container'>
+
+
+  <div class='body'>
     <section id='home' class='row'>
 
       <div id='home-img' class='sm-col-12 col-lg-4'>
@@ -39,8 +42,8 @@
       <div class='sm-col-12 col-lg-8'>
         <ul>
           <li class='home-about'>
-            My name is Evan Doherty. I'm a software engineer with a degree in mathematics and a
-            passion for music and surfing
+            My name is Evan Doherty. I'm a full-stack software engineer with a degree in mathematics and a
+            passion for music and surfing.
           </li>
         </ul>
       </div>
@@ -99,90 +102,86 @@
 
     </section>
     <section class='row' id='skills-education'>
-      <div class='row header'>
-        <h1 class='col-12'>
-          Skills
-        </h1>
-      </div>
-      <!-- <div class="row skills"> -->
-      <div class='row skill backend-div'>
-        <div class='col-6 left backend-header'>
-          <p class="skill-type">Backend</p>
-        </div>
-        <div class='col-6 right'>
-          <!-- <i class="fab icon fa-js"></i>
-          <i class="fab icon fa-react"></i>
-          <i class="fab icon fa-node-js"></i>
-          <i class="fab icon fa-python"></i> -->
 
-          <ul class='skill-list'>
-            <li>MongoDB</li>
-            <li>Atlas</li>
-            <li>Express</li>
-            <li>Node.js</li>
-            <li>PostgreSQL</li>
-            <li>Heroku</li>
-            <li>Goorm</li>
-          </ul>
-        </div>
-      </div>
+      <h1 class='col-12'>
+        Skills
+      </h1>
+      <div class='row skills'>
 
-      <div class='row skill frontend-div'>
-        <div class='col-6 left frontend-header'>
-          <p class='skill-type'>
-            Frontend
-          </p>
-        </div>
-        <div class="col-6 right">
-          <!-- <i class="fab icon fa-css3-alt"></i>
-          <i class="fab icon fa-git"></i>
-          <i class="fab icon fa-github"></i>
-          <i class="fab icon fa-html5"></i> -->
-
-          <ul class='skill-list'>
-            <li>ReactJS</li>
-            <li>React-Native</li>
-            <li>Expo</li>
-            <li>Javascript</li>
-            <li>HTML 5</li>
-            <li>CSS + CSS Flexbox</li>
-            <li>Bootstrap</li>
-            <li>Ant Design</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class='row skill api-div'>
-        <div class='col-6 left api-header'>
-          <p class='skill-type'>
-            API's
-          </p>
-        </div>
-        <div class="col-6 right">
-          <!-- <i class="fab icon fa-css3-alt"></i>
-          <i class="fab icon fa-git"></i>
-          <i class="fab icon fa-github"></i>
-          <i class="fab icon fa-html5"></i> -->
-
-          <ul class='skill-list'>
-            <li>Google Maps</li>
-            <li>Google Places</li>
-            <li>Spotify</li>
-            <li>Authentication
-              <ul class='skill-list'>
-                <li>Google</li>
-                <li>Facebook</li>
-                <li>Spotify</li>
+        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+          <div class='card skill-card'>
+            <div class='left-div backend'>
+              <p class='left-text'>
+                Backend
+              </p>
+            </div>
+            <div class='right-div'>
+              <ul class='skills-list'>
+                <li><img class='icon-img' src="assets/mongodb.png" alt="mongodb"> MongoDB</li>
+                <li><img class='icon-img' src="assets/express.jpg" alt="express"> Express</li>
+                <li><img class='icon-img' src="assets/nodejs.png" alt="nodejs"> Node.JS</li>
+                <li><img class='icon-img' src="assets/postgresql.png" alt="postgres"> PostgreSQL</li>
+                <li><img class='icon-img' src="assets/github.png" alt="github"> Github</li>
+                <li><img class='icon-img' src="assets/heroku.png" alt="heroku"> Heroku</li>
+                <li><img class='icon-img' src="assets/git.png" alt="git"> Git</li>
               </ul>
-            </li>
-
-          </ul>
+            </div>
+          </div>
         </div>
+
+        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+          <div class='card skill-card'>
+            <div class='left-div frontend'>
+              <p class='left-text'>
+
+                Frontend
+              </p>
+            </div>
+            <div class='right-div'>
+              <ul class='skills-list'>
+                <li><img class='icon-img' src="assets/react-native.png" alt="rn"> React-Native</li>
+                <li><img class='icon-img' src="assets/react.png" alt="react"> ReactJS</li>
+                <li><img class='icon-img' src="assets/js.png" alt="js"> Javascript</li>
+                <li><img class='icon-img' src="assets/html.png" alt="html"> HTML 5</li>
+                <li><img class='icon-img' src="assets/css.png" alt="css"> CSS</li>
+                <li><img class='icon-img' src="assets/bootstrap.png" alt="bootstrap"> Bootstrap</li>
+                <li><img class='icon-img' src="assets/ant.png" alt="ant"> Ant Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+          <div class='card skill-card'>
+            <div class='left-div apis'>
+              <p class='left-text'>
+                API's
+              </p>
+            </div>
+            <div class='right-div'>
+              <ul class='skills-list'>
+                <li><img class='icon-img' src="assets/places.png" alt="places"> Google Places</li>
+                <li><img class='icon-img' src="assets/maps.png" alt="maps"> Google Maps</li>
+                <li><img class='icon-img' src="assets/spotify.jpg" alt="spotify"> Spotify</li>
+                <li>
+                  <span class='auth'>
+                    Authentication
+                  </span>
+                  <ul class='skills-list'>
+                    <li><img class='icon-img' src="assets/google.png" alt="google"> Google</li>
+                    <li><img class='icon-img' src="assets/spotify.jpg" alt="spotify"> Spotify</li>
+                    <li><img class='icon-img' src="assets/facebook.png" alt="facebook"> Facebook</li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
-      <!-- </div> -->
-
-
-
     </section>
   </div>
 
@@ -203,6 +202,15 @@
   <!-- </footer> -->
 
   <script type="text/javascript" src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
