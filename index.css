@@ -155,12 +155,61 @@ nav {
 /* ////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////SKILLS/EDUCATION ///////////////////////////////// */
-.skills {
-  padding: 50px;
+#skills-education {
+  /* background-color: indianred; */
+  padding: 10px;
+  /* align-items: center; */
 }
 
-.icon {
+.header {
+  /* background-color: lightpink; */
+  /* padding: 20px; */
+}
+
+.skill {
+  align-items: center;
+  text-align: center;
+  border: 1px black solid;
+  margin-bottom: 15px;
+}
+
+.left {
+  height: 400px;
+  background-color: blue;
+}
+
+.right {
+  background-color: mediumvioletred;
+  height: 400px;
+  padding: 40px;
+}
+
+.backend-header {
+  background-color: lightsalmon;
+  padding: 30px;
+}
+
+.frontend-header {
+  background-color: maroon;
+}
+
+.api-header {
+  background-color: lawngreen;
+}
+
+.skill-list {
+  margin-top: 30px;
+  list-style-type: none;
+  text-align: initial;
+  height: 400px;
+}
+
+.skill-list li {
   margin: 10px;
+}
+
+.skill-type {
+  margin-top: 180px;
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
