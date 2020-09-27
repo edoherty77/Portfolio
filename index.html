@@ -18,6 +18,7 @@
 
 <body>
 
+  <!-- //////////////////////////HEADER////////////////////////////// -->
   <nav class='headerDiv'>
     <a class='logo'><img class='logo-img' src="assets/logo.JPG" alt="logo"></a>
     <button onclick="toggleMenu()" class='toggle'>
@@ -31,7 +32,10 @@
       <li class='item'><a>Contact</a></li>
     </ul>
   </nav>
+  <!-- ///////////////////////////////////////////////////////////////////// -->
 
+
+  <!-- ////////////////////////////////HOME////////////////////////////////// -->
 
   <div class='body'>
     <section id='home' class='row'>
@@ -50,69 +54,109 @@
         </ul>
       </div>
     </section>
+    <!-- ///////////////////////////////////////////////////////////////////// -->
 
-
-
+    <!-- ////////////////////////////////PROJECTS////////////////////////////////// -->
     <section class='row' id='portfolio'>
       <h1 class='col-12 section-header'>
         Projects
       </h1>
       <div class='row projects'>
-        <div class='col-sm-12 card-container col-md-12 col-lg-6 mb-3'>
-          <div class='card'>
-            <img class='card-img-top' id='p3-img' src="assets/vote.png" alt="vote-ify">
+        <div class='col-sm-12 card-container fade-in col-md-12 col-lg-6 mb-3'>
+          <div class='card project-card'>
+            <div class='img-container'>
+              <img class='card-img-top' id='p3-img' src="assets/vote.png" alt="vote-ify">
+              <a href="projects/vote.html" class='project-btn'><i class="far fa-eye"></i></a>
+            </div>
             <div class='card-body'>
               <h1 class='card-title'>Vote-ify</h1>
-              <p class='card-text'>text about prject is gunna go here how ya doen</p>
-              <a href="#" class='btn btn-primary'>go to project</a>
+              <p class='card-text'>Listen, search, and vote using Spotify's API.</p>
+              <div class='d-flex flex-row flex-wrap tags'>
+                <button>MongoDB</button>
+                <button>Express</button>
+                <button>ReactJS</button>
+                <button>Node.JS</button>
+                <button>Ant Design</button>
+                <button>Spotify Authentication</button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-6 mb-3'>
-          <div class='card'>
-            <img class='card-img-top' id='p1-img' src="assets/sudoku.png" alt="sudoku">
+        <div class='col-sm-12 card-container fade-in col-md-12 col-lg-6 mb-3'>
+          <div class='card project-card'>
+            <div class='img-container'>
+              <img class='card-img-top' id='p1-img' src="assets/sudoku.png" alt="sudoku">
+              <a href="projects/sudoku.html" class='project-btn'><i class="far fa-eye"></i></a>
+            </div>
             <div class='card-body'>
               <h1 class='card-title'>Sudoku</h1>
-              <p class='card-text'>Classic sudoku with up to 4 difficulties</p>
-              <a href="#" class='btn btn-primary'>go to project</a>
+              <p class='card-text'>Classic sudoku with up to 4 difficulties.</p>
+              <div class='d-flex flex-row tags'>
+                <button>Javascript</button>
+                <button>HTML</button>
+                <button>CSS</button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-6 mb-3'>
-          <div class='card'>
-            <img class='card-img-top' id='p2-img' src="assets/chat.png" alt="lets-chat">
+        <div class='col-sm-12 card-container fade-in col-md-12 col-lg-6 mb-3'>
+          <div class='card project-card'>
+            <div class='img-container'>
+              <img class='card-img-top' id='p2-img' src="assets/chat.png" alt="lets-chat">
+              <a href="projects/chat.html" class='project-btn'><i class="far fa-eye"></i></a>
+            </div>
             <div class='card-body'>
               <h1 class='card-title'>Let's Chat</h1>
-              <p class='card-text'>text about prject is gunna go here how ya doen</p>
-              <a href="#" class='btn btn-primary'>go to project</a>
+              <p class='card-text'>Education-based chat app.</p>
+              <div class='d-flex flex-row tags'>
+                <button>MongoDB</button>
+                <button>Express</button>
+                <button>Node.JS</button>
+                <button>Facebook Authentication</button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-6 mb-3'>
-          <div class='card'>
-            <img class='card-img-top' id='p4-img' src="assets/tb_2.PNG" alt="travel-book">
+        <div class='col-sm-12 card-container fade-in col-md-12 col-lg-6 mb-3'>
+          <div class='card project-card'>
+            <div class='img-container'>
+              <img class='card-img-top' id='p4-img' src="assets/tb_2.PNG" alt="travel-book">
+              <a href="projects/tb.html" class='project-btn'><i class="far fa-eye"></i></a>
+            </div>
             <div class='card-body'>
               <h1 class='card-title'>Travel Book</h1>
-              <p class='card-text'>text about prject is gunna go here how ya doen</p>
-              <a href="#" class='btn btn-primary'>go to project</a>
+              <p class='card-text'>iOS app for logging every detail of your trip.</p>
+              <div class='d-flex flex-row flex-wrap tags'>
+                <button>MongoDB</button>
+                <button>Express</button>
+                <button>React-Native</button>
+                <button>Node.JS</button>
+                <button>Expo</button>
+                <button>Google Authentication</button>
+                <button>Google Places</button>
+                <button>Google Maps</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ///////////////////////////////////////////////////////////////////// -->
 
 
+
+    <!-- ////////////////////////////////SKILLS////////////////////////////////// -->
     <section class='row' id='skills-section'>
-      <h1 class='col-12 section-header'>
+      <h1 class='col-12 fade-in section-header'>
         Skills
       </h1>
 
       <div class='row skills'>
-        <div class='col-12 card-container mb-3'>
+        <div class='col-12 fade-in card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div backend'>
               <p class='left-text'>
@@ -133,7 +177,7 @@
           </div>
         </div>
 
-        <div class='col-12 card-container mb-3'>
+        <div class='col-12 fade-in card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div frontend'>
               <p class='left-text'>
@@ -155,7 +199,7 @@
           </div>
         </div>
 
-        <div class='col-12 card-container mb-3'>
+        <div class='col-12 fade-in card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div apis'>
               <p class='left-text'>
@@ -182,17 +226,18 @@
           </div>
         </div>
       </div>
-
-
     </section>
+    <!-- ///////////////////////////////////////////////////////////////////// -->
 
+
+    <!-- ////////////////////////////////EDUCATION////////////////////////////////// -->
     <section class='row' id='edu-section'>
-      <h1 class='col-12 section-header'>
+      <h1 class='col-12 fade-in section-header'>
         Education
       </h1>
       <div class='row edu-row'>
 
-        <div class='col-sm-12 col-lg-6 edu-container mb-3'>
+        <div class='col-sm-12 fade-in col-lg-6 edu-container mb-3'>
           <div class='edu-card'>
 
             <div class='d-flex flex-row edu-header'>
@@ -211,7 +256,7 @@
         </div>
 
 
-        <div class='col-sm-12 col-lg-6 edu-container mb-3'>
+        <div class='col-sm-12 fade-in col-lg-6 edu-container mb-3'>
           <div class='edu-card'>
 
             <div class='d-flex flex-row edu-header'>
@@ -231,11 +276,26 @@
         </div>
       </div>
     </section>
+    <!-- ///////////////////////////////////////////////////////////////////// -->
+
+
+
+    <!-- ////////////////////////////////ABOUT ME////////////////////////////////// -->
+    <section class='row' id='about-section'>
+      <h1 class='col-12 section-header'>
+        About Me
+      </h1>
+      <div class='col-12 about-container'>
+
+      </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////// -->
   </div>
 
 
 
-  <!-- <section id='about-me'>About Me</section> -->
+
 
 
 

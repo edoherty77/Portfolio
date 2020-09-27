@@ -100,6 +100,7 @@ nav {
   margin: 0;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 #home-img {
@@ -126,6 +127,15 @@ nav {
 /* ////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////// Projects /////////////////////////// */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.75s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 #portfolio {
   background-color: snow;
   padding: 50px;
@@ -138,11 +148,13 @@ nav {
 
 .card-container {
   margin: 10;
-  /* background-color: blue; */
 }
 
 .card-img-top {
   height: 380px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .card-container .card {
@@ -154,6 +166,43 @@ nav {
   width: 185px;
   height: 380px;
   align-self: center;
+}
+
+.img-container:hover .card-img-top {
+  opacity: 0.3;
+}
+
+.img-container:hover .project-btn {
+  opacity: 1;
+}
+
+.project-btn {
+  position: absolute;
+  bottom: 170px;
+  right: 50px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.far .fa-eye {
+  width: 100px;
+}
+
+.tags {
+  justify-content: center;
+}
+
+.tags button {
+  margin: 5px;
+  padding: 3px;
+  /* border: none; */
+  border-radius: 10px;
+  transition: 1s ease;
+}
+
+.tags button:hover {
+  background-color: tomato;
 }
 
 /* ////////////////////////////////////////////////////////////////////// */
@@ -244,6 +293,11 @@ nav {
 
 .edu-card {
   background-color: white;
+  transition: 1.5s ease;
+}
+
+.edu-card:hover {
+  background-color: #d7eaf3;
 }
 
 .edu-img {
@@ -269,6 +323,14 @@ nav {
 .fa-map-pin {
   color: #4d7998;
   margin-right: 5px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////ABOUT ME///////////////////////////////////// */
+
+#about-section {
+  background-color: white;
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
