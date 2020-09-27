@@ -12,5 +12,3 @@ function toggleMenu() {
     toggle.innerHTML = "<i class='fa fa-times'></i>"
   }
 }
-
-$('.carousel').carousel()

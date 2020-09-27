@@ -35,14 +35,16 @@
 
   <div class='body'>
     <section id='home' class='row'>
-
-      <div id='home-img' class='sm-col-12 col-lg-4'>
+      <div id='home-img' class='sm-col-12 col-md-4 col-lg-3'>
         <img id='headshot' src="assets/headshot_2.JPG" alt="headshot">
       </div>
-      <div class='sm-col-12 col-lg-8'>
-        <ul>
-          <li class='home-about'>
-            My name is Evan Doherty. I'm a full-stack software engineer with a degree in mathematics and a
+      <div class='sm-col-12 col-md-8 col-lg-9 home-text'>
+        <ul class='home-about'>
+          <li>
+            My name is Evan Doherty.
+          </li>
+          <li>
+            I'm a full-stack software engineer with a degree in mathematics and a
             passion for music and surfing.
           </li>
         </ul>
@@ -50,8 +52,9 @@
     </section>
 
 
+
     <section class='row' id='portfolio'>
-      <h1 class='col-12'>
+      <h1 class='col-12 section-header'>
         Projects
       </h1>
       <div class='row projects'>
@@ -71,7 +74,7 @@
             <img class='card-img-top' id='p1-img' src="assets/sudoku.png" alt="sudoku">
             <div class='card-body'>
               <h1 class='card-title'>Sudoku</h1>
-              <p class='card-text'>text about prject is gunna go here how ya doen</p>
+              <p class='card-text'>Classic sudoku with up to 4 difficulties</p>
               <a href="#" class='btn btn-primary'>go to project</a>
             </div>
           </div>
@@ -90,7 +93,7 @@
 
         <div class='col-sm-12 card-container col-md-12 col-lg-6 mb-3'>
           <div class='card'>
-            <img class='card-img-top' id='p4-img' src="assets/test.PNG" alt="travel-book">
+            <img class='card-img-top' id='p4-img' src="assets/tb_2.PNG" alt="travel-book">
             <div class='card-body'>
               <h1 class='card-title'>Travel Book</h1>
               <p class='card-text'>text about prject is gunna go here how ya doen</p>
@@ -99,16 +102,17 @@
           </div>
         </div>
       </div>
-
     </section>
-    <section class='row' id='skills-education'>
 
-      <h1 class='col-12'>
+
+
+    <section class='row' id='skills-section'>
+      <h1 class='col-12 section-header'>
         Skills
       </h1>
-      <div class='row skills'>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+      <div class='row skills'>
+        <div class='col-12 card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div backend'>
               <p class='left-text'>
@@ -129,7 +133,7 @@
           </div>
         </div>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+        <div class='col-12 card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div frontend'>
               <p class='left-text'>
@@ -151,7 +155,7 @@
           </div>
         </div>
 
-        <div class='col-sm-12 card-container col-md-12 col-lg-12 mb-3'>
+        <div class='col-12 card-container mb-3'>
           <div class='card skill-card'>
             <div class='left-div apis'>
               <p class='left-text'>
@@ -173,14 +177,58 @@
                     <li><img class='icon-img' src="assets/facebook.png" alt="facebook"> Facebook</li>
                   </ul>
                 </li>
-
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
 
+
+    </section>
+
+    <section class='row' id='edu-section'>
+      <h1 class='col-12 section-header'>
+        Education
+      </h1>
+      <div class='row edu-row'>
+
+        <div class='col-sm-12 col-lg-6 edu-container mb-3'>
+          <div class='edu-card'>
+
+            <div class='d-flex flex-row edu-header'>
+              <div class='edu-logo'><img class='edu-img' src="assets/ga-logo.jpg" alt="ga-logo"></div>
+              <div class='edu-name-date'>
+                <div class='edu-name'>General Assembly</div>
+                <div class='edu-date'>June 2020 - September 2020</div>
+              </div>
+            </div>
+
+            <div class='d-flex flex-column edu-info'>
+              <div>Software Engineering Immersive Program - Full-Stack</div>
+              <div><i class="fas fa-map-pin"></i> Remote</div>
+            </div>
           </div>
         </div>
 
 
+        <div class='col-sm-12 col-lg-6 edu-container mb-3'>
+          <div class='edu-card'>
+
+            <div class='d-flex flex-row edu-header'>
+              <div class='edu-logo'><img class='edu-img' src="assets/uncw.png" alt="uncw"></div>
+              <div class='edu-name-date'>
+                <div class='edu-name'>UNC Wilmington</div>
+                <div class='edu-date'>August 2010 - May 2015</div>
+              </div>
+            </div>
+
+            <div class='d-flex flex-column edu-info'>
+              <div>BA in Mathematics</div>
+
+              <div><i class="fas fa-map-pin"></i> Wilmington, North Carolina</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
