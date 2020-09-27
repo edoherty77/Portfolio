@@ -7,6 +7,7 @@
 
 body {
   min-width: fit-content;
+  overflow-x: hidden;
 }
 .body {
   background: skyblue;
@@ -25,7 +26,10 @@ nav {
   background-color: #4d7998;
   padding: 15px;
   width: 100%;
+  position: fixed;
+  z-index: 2;
 }
+
 .item {
   padding: 10px;
   order: 2;
@@ -40,7 +44,7 @@ nav {
 }
 
 .menu {
-  /* list-style-type: none; */
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -54,7 +58,7 @@ nav {
   font-size: 20px;
   padding-right: 10px;
   justify-content: center;
-  color: white;
+  /* color: white; */
   padding-left: 30px;
 }
 
@@ -82,8 +86,9 @@ nav {
   display: inline-block;
 }
 
-.active .item {
+.active {
   display: block;
+  font-size: 30px;
 }
 
 .logo-img {
@@ -129,7 +134,7 @@ nav {
 /* ////////////////////////////// Projects /////////////////////////// */
 .fade-in {
   opacity: 0;
-  transition: opacity 0.75s ease-in;
+  transition: opacity 0.9s ease-in;
 }
 
 .fade-in.appear {
@@ -157,9 +162,10 @@ nav {
   backface-visibility: hidden;
 }
 
-.card-container .card {
+.card-container .project-card {
   padding: 30px;
   background-color: #ececec;
+  height: 680px;
 }
 
 #p4-img {
@@ -169,7 +175,7 @@ nav {
 }
 
 .img-container:hover .card-img-top {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .img-container:hover .project-btn {
@@ -178,15 +184,13 @@ nav {
 
 .project-btn {
   position: absolute;
-  bottom: 170px;
+  bottom: 270px;
   right: 50px;
+  color: red;
   opacity: 0;
+
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.far .fa-eye {
-  width: 100px;
 }
 
 .tags {
@@ -208,6 +212,23 @@ nav {
 /* ////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////SKILLS///////////////////////////////// */
+.from-left {
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 400ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+}
 
 #skills-section {
   flex-direction: column;
