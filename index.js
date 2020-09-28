@@ -15,6 +15,9 @@ function toggleMenu() {
 
 const faders = document.querySelectorAll('.fade-in')
 const sliders = document.querySelectorAll('.slide-in')
+const home = document.querySelector('#home')
+const portfolio = document.querySelector('#portfolio')
+const nav = document.querySelector('.headerDiv')
 
 const appearOptions = {
   threshold: 0,
@@ -40,18 +43,17 @@ faders.forEach((fader) => {
   appearOnScroll.observe(fader)
 })
 
+// appearOnScroll.observe(nav)
+
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider)
 })
-
-const home = document.querySelector('#home')
-const portfolio = document.querySelector('#portfolio')
 
 const options = {
   rootMargin: '-150px',
 }
 
-const test = new IntersectionObserver(function (entries, observer) {
+const test = new IntersectionObserver(function (entries, test) {
   entries.forEach((entry) => {
     console.log(entry)
   })
@@ -83,5 +85,6 @@ $(document).ready(function () {
         $(this).parent().siblings().removeClass('active')
       }
     })
+    parallax()
   })
 })
