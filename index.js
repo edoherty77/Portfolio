@@ -88,3 +88,17 @@ $(document).ready(function () {
     parallax()
   })
 })
+
+// const express = document.querySelectorAll('.express')
+
+// const test = () => {
+//   express.forEach((fuck) => {
+//     fuck.classList('clicked')
+//   })
+// }
+
+// express.forEach((shit) => {
+//   shit.addEventListener('click', () => {
+//     test
+//   })
+// })

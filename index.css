@@ -233,6 +233,16 @@ nav {
 /* ////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////SKILLS///////////////////////////////// */
+
+.express {
+  background-color: lime;
+}
+
+.clicked {
+  background-color: blue;
+  width: 200px;
+}
+
 .from-left {
   transform: translateX(-50%);
 }
