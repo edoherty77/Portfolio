@@ -13,6 +13,8 @@ function toggleMenu() {
   }
 }
 
+///////////////////////SCROLL FUNCTIONALITY////////////////////////
+
 const faders = document.querySelectorAll('.fade-in')
 const sliders = document.querySelectorAll('.slide-in')
 const home = document.querySelector('#home')
@@ -53,14 +55,6 @@ const options = {
   rootMargin: '-150px',
 }
 
-const test = new IntersectionObserver(function (entries, test) {
-  entries.forEach((entry) => {
-    console.log(entry)
-  })
-}, options)
-
-test.observe(home)
-
 $(document).ready(function () {
   let scrollLink = $('.scroll')
 
@@ -85,20 +79,5 @@ $(document).ready(function () {
         $(this).parent().siblings().removeClass('active')
       }
     })
-    parallax()
   })
 })
-
-// const express = document.querySelectorAll('.express')
-
-// const test = () => {
-//   express.forEach((fuck) => {
-//     fuck.classList('clicked')
-//   })
-// }
-
-// express.forEach((shit) => {
-//   shit.addEventListener('click', () => {
-//     test
-//   })
-// })
