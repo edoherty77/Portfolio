@@ -121,7 +121,7 @@ nav {
 /* /////////////////////////// HOME ////////////////////////// */
 
 #home {
-  padding: 50px;
+  /* padding: 50px; */
 
   background-color: #ececec;
   margin: 0;
@@ -146,7 +146,6 @@ nav {
   margin: 10px;
   list-style: none;
   font-size: 20px;
-  background-color: blue;
 }
 
 .home-about li {
@@ -268,7 +267,7 @@ nav {
 
 #skills-section {
   flex-direction: column;
-  padding: 50px 0 50px 0;
+  /* padding: 50px 0 50px 0; */
   background-color: #ececec;
   align-items: center;
   justify-content: center;
@@ -339,7 +338,7 @@ nav {
 /* ///////////////////////////////EDUCATION/////////////////////////////////// */
 #edu-section {
   background-color: white;
-  padding: 50px;
+  /* padding: 50px; */
   align-items: center;
   justify-content: center;
   margin: 0px;
@@ -392,7 +391,7 @@ nav {
 
 #about {
   background-color: #ececec;
-  padding: 50px;
+  /* padding: 50px; */
   align-items: center;
   justify-content: center;
   margin: 0px;
