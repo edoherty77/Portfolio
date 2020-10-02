@@ -169,6 +169,7 @@ nav {
   background-color: snow;
   padding: 50px 0 50px 0;
   margin: 0px;
+  text-align: center;
 }
 
 .projects {
@@ -272,6 +273,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
+  text-align: center;
 }
 
 #skills-row {
@@ -342,6 +344,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
+  text-align: center;
 }
 
 .edu-row .edu-container {
@@ -395,6 +398,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
+  text-align: center;
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
@@ -406,6 +410,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
+  text-align: center;
 }
 
 .contact-container {
