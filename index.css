@@ -398,15 +398,26 @@ nav {
 }
 
 .am {
-  border: indianred 1px solid;
+  /* border: indianred 1px solid; */
   display: flex;
   padding: 10px;
 }
 
+.am-pic-div {
+  /* border: green 2px solid; */
+  align-content: center;
+}
+
 .am-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
+  width: 160px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.am-text {
+  padding: 20px;
+
+  /* border: hotpink 2px solid; */
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
