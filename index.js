@@ -13,6 +13,12 @@ function toggleMenu() {
   }
 }
 
+//Submit Button functionality
+
+function submitMessage() {
+  alert('yo')
+}
+
 ///////////////////////SCROLL FUNCTIONALITY////////////////////////
 
 const faders = document.querySelectorAll('.fade-in')
