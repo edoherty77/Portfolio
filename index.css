@@ -423,50 +423,33 @@ nav {
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////////////CONTACT///////////////////////////////////// */
-#contact {
-  background-color: white;
+#contact-row {
+  background-color: #4d7998;
   padding: 50px;
   align-items: center;
   justify-content: center;
   margin: 0px;
 }
 
-.contact-container {
-  margin-top: 40px;
-  align-items: center;
-  justify-content: center;
+.info-div {
+  /* border: green 1px solid; */
   text-align: center;
-  /* width: 900px; */
 }
 
-.name-div {
-  align-items: center;
+.icon-div {
   justify-content: center;
-  padding: 10px;
 }
 
-.email-div {
-  padding: 10px;
+.prof-icon {
+  color: rgb(38, 38, 38);
+  font-size: 30px;
+  margin: 0 5px 0 5px;
 }
 
 .contact-div {
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+  /* border: rebeccapurple 1px solid; */
+  text-align: center;
 }
-
-#contact-icons-list {
-  list-style-type: none;
-}
-
-#contact-icons-list li {
-  margin: 0 10px 0 10px;
-}
-
-.name {
-  font-weight: 700;
-}
-
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* Tablet view */
