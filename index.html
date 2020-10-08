@@ -48,7 +48,7 @@
       <li onclick="toggleMenu()" class='item nav-item'><a class='scroll' href='#skills-section'>Skills</a></li>
       <li onclick="toggleMenu()" class='item nav-item'><a class='scroll' href='#edu-section'>Education</a></li>
       <li onclick="toggleMenu()" class='item nav-item'><a class='scroll' href='#about'>About Me</a></li>
-      <li onclick="toggleMenu()" class='item nav-item'><a class='scroll' href='#contact'>Contact</a></li>
+      <li onclick="toggleMenu()" class='item nav-item'><a class='scroll' href='#contact-row'>Contact</a></li>
     </ul>
   </nav>
   <!-- ///////////////////////////////////////////////////////////////////// -->
@@ -361,7 +361,7 @@
         Contact
       </h1>
 
-      <div class='info-div col-sm-12 col-md-6'>
+      <div class='info-div col-sm-12'>
         <p><span class='name'>Evan Doherty</span> | Software Engineer</p>
         <p>Email: evan.doherty.ny@gmail.com</p>
         <div class='icon-div d-flex flex-row'>
@@ -373,16 +373,16 @@
 
 
 
-      <div class='contact-div col-sm-12 col-md-6'>
+      <div class='contact-div col-sm-12'>
         <form id="contact-form">
-          <input type="hidden" name="contact_number">
+          <input type="hidden" name="contact_number"> <br>
           <!-- <label>Name</label> -->
-          <input type="text" name="user_name" placeholder="Name">
+          <input type="text" name="user_name" placeholder="Name"> <br>
           <!-- <label>Email</label> -->
-          <input type="email" name="user_email" placeholder="Email">
+          <input type="email" name="user_email" placeholder="Email"> <br>
           <!-- <label>Message</label> -->
-          <textarea name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send" onclick="submitMessage()">
+          <textarea name="message" placeholder="Message"></textarea> <br>
+          <input type="submit" value="Send">
         </form>
       </div>
 
@@ -399,7 +399,7 @@
 
 
 
-  <script type="text/javascript" src="index.js"></script>
+  <script type=" text/javascript" src="index.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
