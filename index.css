@@ -436,6 +436,11 @@ nav {
   text-align: center;
 }
 
+.info-div p {
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+}
+
 .icon-div {
   justify-content: center;
 }
@@ -443,12 +448,26 @@ nav {
 .prof-icon {
   color: rgb(38, 38, 38);
   font-size: 30px;
-  margin: 0 5px 0 5px;
+  margin: 0 15px 0 15px;
+  transition: ease-in 0.5s;
+}
+
+.prof-icon:hover {
+  color: tomato;
 }
 
 .contact-div {
   /* border: rebeccapurple 1px solid; */
   text-align: center;
+}
+
+input,
+textarea {
+  width: 370px;
+}
+
+textarea {
+  height: 200px;
 }
 /* ////////////////////////////////////////////////////////////////////////// */
 
@@ -460,7 +479,6 @@ nav {
 
   .logo {
     flex: 1;
-
     padding-left: 10px;
   }
 
