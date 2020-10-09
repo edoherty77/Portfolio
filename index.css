@@ -9,14 +9,6 @@
   width: 100%;
 }
 
-body {
-  /* overflow-x: hidden; */
-}
-
-.body {
-  background: skyblue;
-}
-
 .section-header {
   text-align: center;
   margin-bottom: 25px;
@@ -431,6 +423,11 @@ nav {
   margin: 0px;
 }
 
+.contact {
+  color: #ececec;
+  font-weight: 700;
+}
+
 .info-div {
   /* border: green 1px solid; */
   text-align: center;
@@ -438,6 +435,7 @@ nav {
 
 .info {
   font-size: 20px;
+  color: #ececec;
 }
 
 .info-div p {
@@ -467,16 +465,25 @@ nav {
 
 #contact-form input,
 #contact-form textarea {
-  width: 65vw;
+  width: 60vw;
   background-color: #ececec;
   color: #4d7998;
   margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: #4d7998;
 }
 
 textarea {
   height: 150px;
 }
 
+input[type='submit'] {
+}
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* Tablet view */
@@ -526,5 +533,10 @@ textarea {
 
   #portfolio {
     padding: 50px;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    width: 40vw;
   }
 }
