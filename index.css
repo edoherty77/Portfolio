@@ -436,6 +436,10 @@ nav {
   text-align: center;
 }
 
+.info {
+  font-size: 20px;
+}
+
 .info-div p {
   font-weight: 700;
   margin: 10px 0 10px 0;
@@ -461,14 +465,18 @@ nav {
   text-align: center;
 }
 
-input,
-textarea {
+#contact-form input,
+#contact-form textarea {
   width: 65vw;
+  background-color: #ececec;
+  color: #4d7998;
+  margin: 10px;
 }
 
 textarea {
   height: 150px;
 }
+
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* Tablet view */
