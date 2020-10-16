@@ -130,8 +130,8 @@ nav {
   justify-content: center;
   height: 100vh;
   background-attachment: scroll;
-  min-width: 100%;
-  max-width: 100%;
+  /* min-width: 100%;
+  max-width: 100%; */
 }
 
 #home-img {
@@ -173,8 +173,8 @@ nav {
   background-color: snow;
   padding: 50px 0 50px 0;
   margin: 0px;
-  min-width: 100%;
-  max-width: fit-content;
+  /* min-width: 100%;
+  max-width: fit-content; */
 }
 
 .projects .card-container .project-card {
@@ -307,8 +307,8 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
-  min-width: 100%;
-  max-width: 100%;
+  /* min-width: 100%;
+  max-width: 100%; */
 }
 
 #skills-row {
@@ -442,8 +442,8 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
-  min-width: 100%;
-  max-width: 100%;
+  /* min-width: 100%;
+  max-width: 100%; */
 }
 
 .am {
@@ -478,7 +478,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin: 0px;
-  min-width: 100%;
+  /* min-width: 100%; */
 }
 
 .contact {
