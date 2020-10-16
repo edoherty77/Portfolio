@@ -186,6 +186,7 @@ nav {
 .projects {
   text-align: center;
   border: tomato 1px dashed;
+  max-width: 100%;
 }
 
 #portfolio .projects .card-container {
