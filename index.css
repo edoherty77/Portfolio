@@ -595,11 +595,11 @@ input[type='submit'] {
 @media screen and (max-width: 768px) {
   html {
     overflow-x: hidden;
-    position: relative;
   }
 
   body {
     overflow-x: hidden;
+    position: relative;
     min-width: 100%;
   }
 
