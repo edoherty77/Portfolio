@@ -172,7 +172,7 @@ nav {
 
 .projects .card-container .project-card {
   height: auto;
-  max-width: fit-content;
+  /* max-width: fit-content; */
 }
 
 .card .card-title {
@@ -184,7 +184,7 @@ nav {
 }
 
 .card-container {
-  /* margin: 10px; */
+  max-width: fit-content;
 }
 
 .carousel {
