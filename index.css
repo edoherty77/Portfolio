@@ -170,11 +170,13 @@ nav {
   margin: 0px;
   min-width: 100%;
   max-width: fit-content;
+  border: 1px green solid;
 }
 
 .projects .card-container .project-card {
   height: auto;
   max-width: unset;
+  border: blue 1px solid;
 }
 
 .card .card-title {
@@ -183,10 +185,12 @@ nav {
 
 .projects {
   text-align: center;
+  border: tomato 1px dashed;
 }
 
 #portfolio .projects .card-container {
   /* max-width: fit-content; */
+  border: black 1px groove;
 }
 
 .carousel {
