@@ -25,7 +25,7 @@ nav {
   background-color: #4d7998;
   padding: 15px;
   opacity: 1;
-  max-width: 100%;
+  width: 100%;
   position: absolute;
   z-index: 2;
 }
