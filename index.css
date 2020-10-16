@@ -126,6 +126,7 @@ nav {
   height: 100vh;
   background-attachment: scroll;
   min-width: 100%;
+  max-width: 100%;
 }
 
 #home-img {
@@ -168,6 +169,7 @@ nav {
   padding: 50px 0 50px 0;
   margin: 0px;
   min-width: 100%;
+  max-width: 100%;
 }
 
 .projects .card-container .project-card {
@@ -299,6 +301,7 @@ nav {
   justify-content: center;
   margin: 0px;
   min-width: 100%;
+  max-width: 100%;
 }
 
 #skills-row {
@@ -370,6 +373,7 @@ nav {
   justify-content: center;
   margin: 0px;
   min-width: 100%;
+  max-width: 100%;
 }
 
 .edu-row .edu-container {
@@ -424,6 +428,7 @@ nav {
   justify-content: center;
   margin: 0px;
   min-width: 100%;
+  max-width: 100%;
 }
 
 .am {
