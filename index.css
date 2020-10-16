@@ -114,8 +114,9 @@ nav {
 
 #home {
   padding: 50px;
-
-  background-color: #ececec;
+  background-image: url(https://images.unsplash.com/photo-1551037111-e4f83e5e375d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   align-items: center;
   justify-content: center;
@@ -137,7 +138,8 @@ nav {
 .home-about {
   margin: 10px;
   list-style: none;
-  font-size: 20px;
+  font-size: 25px;
+  color: white;
 }
 
 .home-about li {
@@ -546,14 +548,15 @@ input[type='submit'] {
     display: none;
   }
 
-  .body {
-    background: skyblue;
-    min-width: fit-content;
+  body {
+    background-color: skyblue;
+    /* min-width: fit-content; */
   }
 
   #home {
-    padding: 50px 0 50px 0;
-    background-color: #ececec;
+    /* padding: 50px 0 50px 0; */
+    min-width: 100%;
+    background-color: blue;
     margin: 0;
     align-items: center;
     justify-content: center;
