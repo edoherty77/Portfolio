@@ -183,7 +183,7 @@ nav {
   text-align: center;
 }
 
-.card-container {
+#portfolio .projects .card-container {
   max-width: fit-content;
 }
 
