@@ -222,6 +222,7 @@ nav {
   padding: 30px;
   background-color: #ececec;
   height: 680px;
+  max-width: 100%;
 }
 
 .img-container:hover .card-img-top {
