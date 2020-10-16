@@ -174,13 +174,11 @@ nav {
   margin: 0px;
   min-width: 100%;
   max-width: fit-content;
-  border: 1px green solid;
 }
 
 .projects .card-container .project-card {
   height: auto;
   max-width: unset;
-  border: blue 1px solid;
 }
 
 .card .card-title {
@@ -189,13 +187,12 @@ nav {
 
 .projects {
   text-align: center;
-  border: tomato 1px dashed;
+
   max-width: 100%;
 }
 
 #portfolio .projects .card-container {
   /* max-width: fit-content; */
-  border: black 1px groove;
 }
 
 .carousel {
@@ -315,6 +312,7 @@ nav {
 
 #skills-row {
   max-width: 100%;
+  border: solid 1px black;
 }
 
 .card-container .skill-card {
@@ -385,11 +383,16 @@ nav {
   max-width: 100%;
 }
 
+.edu-row {
+  border: 1px blue dashed;
+}
+
 .edu-row .edu-container {
   padding: 15px;
   max-width: 450px;
   margin: auto;
   min-width: 450px;
+  border: solid 1px green;
 }
 
 .edu-card {
