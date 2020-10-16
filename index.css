@@ -381,7 +381,7 @@ nav {
   justify-content: center;
   margin: 0px;
   min-width: 100%;
-  max-width: 100%;
+  max-width: fit-content;
   border: red 1px solid;
 }
 
