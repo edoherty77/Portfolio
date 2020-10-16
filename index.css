@@ -25,15 +25,13 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  position: sticky;
-  background-color: transparent;
 }
 
 .logo {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: transparent;
+
   z-index: 4;
 }
 
@@ -246,7 +244,7 @@ section .section-header {
 } */
 
 .clicked {
-  background-color: blue;
+  /* background-color: blue; */
   width: 200px;
 }
 
@@ -553,7 +551,7 @@ input[type='submit'] {
   #home {
     /* padding: 50px 0 50px 0; */
     min-width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     margin: 0;
     align-items: center;
     justify-content: center;
