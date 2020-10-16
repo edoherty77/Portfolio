@@ -184,7 +184,7 @@ nav {
 }
 
 #portfolio .projects .card-container {
-  max-width: fit-content;
+  /* max-width: fit-content; */
 }
 
 .carousel {
@@ -222,7 +222,7 @@ nav {
   padding: 30px;
   background-color: #ececec;
   height: 680px;
-  max-width: 100%;
+  min-width: inherit;
 }
 
 .img-container:hover .card-img-top {
