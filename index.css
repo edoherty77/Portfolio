@@ -381,10 +381,12 @@ nav {
   margin: 0px;
   min-width: 100%;
   max-width: 100%;
+  border: red 1px solid;
 }
 
 .edu-row {
   border: 1px blue dashed;
+  max-width: 100%;
 }
 
 .edu-row .edu-container {
