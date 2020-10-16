@@ -21,6 +21,22 @@ body {
   margin-bottom: 25px;
 }
 
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: sticky;
+  background-color: transparent;
+}
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  z-index: 4;
+}
+
 /* NAVBAR */
 
 #navbar {
@@ -29,12 +45,6 @@ body {
   align-items: center;
   min-height: 8vh;
   background-color: #7a8998;
-}
-
-.logo img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
 }
 
 .nav-links {
