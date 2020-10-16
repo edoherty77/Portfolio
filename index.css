@@ -174,7 +174,7 @@ nav {
 
 .projects .card-container .project-card {
   height: auto;
-  /* max-width: fit-content; */
+  max-width: unset;
 }
 
 .card .card-title {
