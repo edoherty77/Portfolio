@@ -387,7 +387,7 @@ nav {
 
 .edu-row {
   border: 1px blue dashed;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .edu-row .edu-container {
