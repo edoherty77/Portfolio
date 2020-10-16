@@ -317,7 +317,7 @@ nav {
 
 #skills-row {
   max-width: 100%;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 .card-container .skill-card {
