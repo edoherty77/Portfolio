@@ -3,15 +3,58 @@ const toggle = document.querySelector('.toggle')
 const menu = document.querySelector('.menu')
 console.log(menu)
 
-function toggleMenu() {
-  if (menu.classList.contains('active')) {
-    menu.classList.remove('active')
-    toggle.innerHTML = "<i class='fas fa-bars'></i>"
-  } else {
-    menu.classList.add('active')
-    toggle.innerHTML = "<i class='fa fa-times'></i>"
-  }
+// function toggleMenu() {
+//   if (menu.classList.contains('active')) {
+//     menu.classList.remove('active')
+//     toggle.innerHTML = "<i class='fas fa-bars'></i>"
+//   } else {
+//     menu.classList.add('active')
+//     toggle.innerHTML = "<i class='fa fa-times'></i>"
+//   }
+// }
+
+const navSlide = () => {
+  const burger = document.querySelector('.burger')
+  const nav = document.querySelector('.nav-links')
+  const navLinks = document.querySelectorAll('.nav-links li')
+
+  //Toggle Nav
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('nav-active')
+
+    //Animate Links
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = ''
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 7 + 0.4
+        }s`
+      }
+    })
+
+    //Burger Animation
+    burger.classList.toggle('toggle')
+  })
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.toggle('nav-active')
+      burger.classList.toggle('toggle')
+      navLinks.forEach((link, index) => {
+        if (link.style.animation) {
+          link.style.animation = ''
+        } else {
+          link.style.animation = `navLinkFade 0.5s ease forwards ${
+            index / 7 + 0.4
+          }s`
+        }
+      })
+    })
+  })
 }
+
+navSlide()
 
 //Submit Button functionality
 
