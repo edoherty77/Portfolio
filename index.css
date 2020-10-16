@@ -169,7 +169,7 @@ nav {
   padding: 50px 0 50px 0;
   margin: 0px;
   min-width: 100%;
-  max-width: 100%;
+  max-width: fit-content;
 }
 
 .projects .card-container .project-card {
