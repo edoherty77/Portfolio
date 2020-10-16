@@ -387,11 +387,11 @@ nav {
   /* min-width: fit-content; */
   min-width: 100%;
   /* max-width: fit-content; */
-  border: red 1px solid;
+  /* border: red 1px solid; */
 }
 
 .edu-row {
-  border: 1px blue dashed;
+  /* border: 1px blue dashed; */
   /* max-width: 100%; */
 }
 
@@ -400,7 +400,7 @@ nav {
   max-width: 450px;
   margin: auto;
   min-width: 450px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
 }
 
 .edu-card {
