@@ -163,32 +163,61 @@ nav {
   margin: 0px;
 }
 
+.card .card-title {
+  margin-bottom: 20px;
+}
+
 .projects {
   text-align: center;
 }
 
 .card-container {
-  margin: 10;
+  /* margin: 10px; */
 }
 
-.card-img-top {
+.carousel {
+  width: 100%;
+  height: 380px;
+}
+
+.img-container .carousel {
+  margin-bottom: 15px;
+}
+
+#chatCarousel img,
+#sudokuCarousel img,
+#voteCarousel img {
+  height: 360px;
+}
+
+#tbCarousel {
+  width: 230px;
+  height: 420px;
+  align-self: center;
+  margin: auto;
+}
+
+#tbCarousel img {
+  /* width: 150px; */
+  height: 410px;
+}
+
+/* .card-img-top {
   width: 100%;
   height: 380px;
   opacity: 1;
   transition: 0.5s ease;
   backface-visibility: hidden;
+} */
+
+.carousel-inner {
+  background-color: #ececec;
 }
 
 .card-container .project-card {
   padding: 30px;
   background-color: #ececec;
   height: 680px;
-}
-
-#p4-img {
-  width: 185px;
-  height: 380px;
-  align-self: center;
 }
 
 .img-container:hover .card-img-top {
@@ -538,5 +567,33 @@ input[type='submit'] {
   #contact-form input,
   #contact-form textarea {
     width: 40vw;
+  }
+
+  .carousel {
+    width: 70%;
+    height: 380px;
+    align-self: center;
+    margin: auto;
+  }
+
+  #chatCarousel img,
+  #sudokuCarousel img,
+  #voteCarousel img {
+    height: 380px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .carousel {
+    width: 45%;
+    height: 380px;
+    align-self: center;
+    margin: auto;
+  }
+
+  #chatCarousel img,
+  #sudokuCarousel img,
+  #voteCarousel img {
+    height: 380px;
   }
 }
