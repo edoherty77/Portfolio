@@ -41,6 +41,7 @@ body {
   display: flex;
   width: 50%;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .nav-links a {
