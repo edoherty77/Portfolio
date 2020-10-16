@@ -594,6 +594,7 @@ input[type='submit'] {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+    width: fit-content;
   }
 
   .nav-links {
@@ -608,6 +609,7 @@ input[type='submit'] {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     background-color: #7a8998;
+    z-index: 3;
   }
 
   .nav-links li {
