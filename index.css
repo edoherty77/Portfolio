@@ -27,6 +27,7 @@ nav {
   padding: 15px;
   opacity: 1;
   min-width: 100%;
+  max-width: 100%;
   position: absolute;
   z-index: 2;
 }
