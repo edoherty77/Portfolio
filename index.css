@@ -163,6 +163,10 @@ nav {
   margin: 0px;
 }
 
+.projects .card-container .project-card {
+  height: auto;
+}
+
 .card .card-title {
   margin-bottom: 20px;
 }
