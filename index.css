@@ -594,7 +594,7 @@ input[type='submit'] {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
-    width: fit-content;
+    width: auto;
   }
 
   .nav-links {
