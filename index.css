@@ -11,7 +11,7 @@
 
 body {
   /* overflow-x: hidden; */
-  min-width: 100%;
+  max-width: fit-content;
 }
 
 .section-header {
