@@ -135,7 +135,7 @@ section .section-header {
 }
 
 #portfolio {
-  background-color: snow;
+  /* background-color: green; */
   padding: 50px 0 50px 0;
   margin: 0px;
   /* min-width: 100%;
@@ -146,6 +146,8 @@ section .section-header {
 .projects .card-container .project-card {
   height: auto;
   max-width: unset;
+  /* background-color: blue; */
+  margin-left: 25px;
 }
 
 .card .card-title {
