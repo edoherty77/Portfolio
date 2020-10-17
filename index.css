@@ -111,6 +111,7 @@ body {
   list-style: none;
   font-size: 25px;
   color: white;
+  padding-left: 10px;
 }
 
 .home-about li {
@@ -135,18 +136,14 @@ section .section-header {
 }
 
 #portfolio {
-  /* background-color: green; */
   padding: 50px 0 50px 0;
   margin: 0px;
-  /* min-width: 100%;
-  max-width: fit-content; */
   min-width: 100%;
 }
 
 .projects .card-container .project-card {
   height: auto;
   max-width: unset;
-  /* background-color: blue; */
   margin-left: 25px;
 }
 
