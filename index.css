@@ -640,6 +640,8 @@ input[type='submit'] {
     padding: 50px;
     background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
