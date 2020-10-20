@@ -636,6 +636,23 @@ input[type='submit'] {
     display: block;
     cursor: pointer;
   }
+
+  #home {
+    padding: 50px;
+    background-image: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-attachment: scroll;
+    min-width: 100%;
+    /* max-width: 100%; */
+  }
 }
 
 .nav-active {
