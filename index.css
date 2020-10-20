@@ -80,7 +80,7 @@ body {
 
 #home {
   padding: 50px;
-  background-image: url(https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+  background-image: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -102,8 +102,8 @@ body {
 
 #headshot {
   width: 200px;
-  height: 250px;
-  border-radius: 170px;
+  height: 200px;
+  border-radius: 100px;
 }
 
 .home-about {
@@ -112,6 +112,8 @@ body {
   font-size: 25px;
   color: white;
   padding-left: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0.6px 0.6px 3px #02a4c9;
 }
 
 .home-about li {
