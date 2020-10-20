@@ -641,10 +641,10 @@ input[type='submit'] {
     padding: 50px;
     background-image: url(https://images.unsplash.com/photo-1471279136892-55af5dc6895f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
     background-repeat: no-repeat;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin: 0;
     align-items: center;
     justify-content: center;
