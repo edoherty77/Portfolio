@@ -14,6 +14,7 @@ body {
   min-width: fit-content;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #eee;
 }
 
 .section-header {
@@ -134,22 +135,33 @@ body {
 
 section .section-header {
   padding-right: 45px;
+  margin-bottom: 25px;
+  font-weight: 700;
 }
 
 #portfolio {
   padding: 50px 0 50px 0;
   margin: 0px;
   min-width: 100%;
+  background-color: #eee;
 }
 
 .projects .card-container .project-card {
   height: auto;
   max-width: unset;
   margin-left: 25px;
+  background-color: #486c95;
 }
 
 .card .card-title {
   margin-bottom: 20px;
+  color: #eee;
+  letter-spacing: 1px;
+}
+
+.card .card-text {
+  color: #eee;
+  font-size: 16px;
 }
 
 .projects {
@@ -239,12 +251,7 @@ section .section-header {
 
 /* //////////////////////SKILLS///////////////////////////////// */
 
-/* .express {
-  background-color: lime;
-} */
-
 .clicked {
-  /* background-color: blue; */
   width: 200px;
 }
 
@@ -269,12 +276,11 @@ section .section-header {
 #skills-section {
   flex-direction: column;
   padding: 50px 0 50px 0;
-  background-color: #ececec;
+  background-color: #eee;
   align-items: center;
   justify-content: center;
   margin: 0px;
-  /* min-width: 100%;
-  max-width: 100%; */
+
   min-width: 100%;
 }
 
@@ -372,7 +378,7 @@ section .section-header {
 }
 
 .edu-card:hover {
-  background-color: #d7eaf3;
+  background-color: #486c95;
 }
 
 .edu-img {
@@ -442,7 +448,7 @@ section .section-header {
 
 /* //////////////////////////////CONTACT///////////////////////////////////// */
 #contact-row {
-  background-color: #4d7998;
+  background-color: #486c95;
   padding: 50px;
   align-items: center;
   justify-content: center;
