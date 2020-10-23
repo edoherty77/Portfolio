@@ -237,10 +237,12 @@ section .section-header {
 
 .tags button {
   margin: 5px;
-  padding: 3px;
-  /* border: none; */
+  padding: 9px;
   border-radius: 10px;
   transition: 1s ease;
+  text-align: center;
+  letter-spacing: 1px;
+  pointer-events: none;
 }
 
 .tags button:hover {
