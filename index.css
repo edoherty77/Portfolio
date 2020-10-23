@@ -702,6 +702,15 @@ input[type='submit'] {
   .home-about {
     padding: 0;
     width: 100%;
+    border: black 2px solid;
+  }
+
+  .home-text {
+    border: green solid 2px;
+  }
+
+  #home {
+    border: blue 2px solid;
   }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
