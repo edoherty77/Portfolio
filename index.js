@@ -111,6 +111,8 @@ $(document).ready(function () {
   //Active link switching
   $(window).scroll(function () {
     let scrollbarLocation = $(this).scrollTop()
+    var scrolledY = $(window).scrollTop()
+    $('#home').css('background-position', 'left ' + scrolledY + 'px')
     scrollLink.each(function () {
       let sectionOffset = $(this.hash).offset().top - 20
       if (sectionOffset <= scrollbarLocation) {
