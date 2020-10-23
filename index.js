@@ -112,7 +112,16 @@ $(document).ready(function () {
   $(window).scroll(function () {
     let scrollbarLocation = $(this).scrollTop()
     var scrolledY = $(window).scrollTop()
+    //Parallax for background image
     $('#home').css('background-position', 'left ' + scrolledY + 'px')
+
+    //Change color of navbar
+    if (scrolledY) {
+      $('#navbar').addClass('black')
+    } else {
+      $('#navbar').removeClass('black')
+    }
+
     scrollLink.each(function () {
       let sectionOffset = $(this.hash).offset().top - 20
       if (sectionOffset <= scrollbarLocation) {
