@@ -425,21 +425,36 @@ section .section-header {
   /* border: indianred 1px solid; */
   display: flex;
   padding: 10px;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  margin: 20px 0 20px 0;
+}
+
+#am-1 {
+  text-align: center;
+}
+
+#solid {
+  border-top: 1px solid lightgray;
+  position: absolute;
+  width: 100%;
 }
 
 .am-pic-div {
   /* border: green 2px solid; */
-  align-content: center;
+  /* align-content: center; */
 }
 
 .am-pic {
-  width: 160px;
-  height: 200px;
-  border-radius: 50px;
+  width: 275px;
+  height: 275px;
+  border-radius: 150px;
 }
 
 .am-text {
   padding: 20px;
+  font-size: 18px;
 
   /* border: hotpink 2px solid; */
 }
