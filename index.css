@@ -691,7 +691,7 @@ input[type='submit'] {
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     min-width: 100%;
     /* border: blue 2px solid; */
   }
