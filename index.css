@@ -683,11 +683,11 @@ input[type='submit'] {
     /* display: table; */
     background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
     background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    /* position: relative; */
+    background-size: center;
+    -webkit-background-size: center;
+    -moz-background-size: center;
+    -o-background-size: center;
     margin: 0;
     align-items: center;
     justify-content: center;
