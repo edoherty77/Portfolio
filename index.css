@@ -42,7 +42,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 50px;
+  /* min-height: 8vh; */
   background-color: #486c95;
 }
 
