@@ -695,6 +695,10 @@ input[type='submit'] {
     /* border: blue 2px solid; */
   }
 
+  .home-img {
+    margin-top: 50px;
+  }
+
   .home-about {
     padding: 0;
     width: 100%;
