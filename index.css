@@ -45,6 +45,10 @@ body {
   min-height: 50px;
   /* min-height: 8vh; */
   background-color: #486c95;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav-links {
@@ -700,7 +704,7 @@ input[type='submit'] {
   }
 
   #home-img {
-    margin-top: -100px;
+    /* margin-top: -100px; */
   }
 
   .home-about {
@@ -713,7 +717,7 @@ input[type='submit'] {
     /* border: green solid 2px; */
     /* min-width: 100%; */
     padding: 0;
-    margin-top: -250px;
+    /* margin-top: -250px; */
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
