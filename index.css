@@ -689,7 +689,7 @@ input[type='submit'] {
     margin: 0;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     background-attachment: scroll;
     min-width: 100%;
     /* border: blue 2px solid; */
