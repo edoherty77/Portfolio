@@ -679,40 +679,38 @@ input[type='submit'] {
 
   /* ///////////////////////////////HOME/////////////////////////////////////////// */
   #home {
-    padding: 50px;
+    padding: 0;
     background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
     background-repeat: no-repeat;
-
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
     margin: 0;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-attachment: scroll;
     min-width: 100%;
+    /* border: blue 2px solid; */
+  }
+
+  .home-about {
+    padding: 0;
+    width: 100%;
+    /* border: black 2px solid; */
+  }
+
+  .home-text {
+    /* border: green solid 2px; */
+    /* min-width: 100%; */
+    padding: 0;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
   /* ///////////////////////////////PROJECTS/////////////////////////////////////////// */
-  .home-about {
-    padding: 0;
-    width: 100%;
-    border: black 2px solid;
-  }
 
-  .home-text {
-    border: green solid 2px;
-    min-width: 100%;
-  }
-
-  #home {
-    border: blue 2px solid;
-  }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
   /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
