@@ -22,20 +22,29 @@ body {
   margin-bottom: 25px;
 }
 
-.logo img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-}
-
-.logo {
+#scrolldiv {
   position: fixed;
   bottom: 20px;
   right: 20px;
-
-  z-index: 4;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 70px;
+  height: 70px;
+  cursor: -webkit-grab;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 35px;
 }
 
+#scrolldivbutton a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#email {
+  font-size: 30px;
+}
 /* NAVBAR */
 
 #navbar {
@@ -171,10 +180,10 @@ section .section-header {
 }
 
 #portfolio {
-  padding: 50px 0 50px 0;
+  padding: 0;
   margin: 0px;
   min-width: 100%;
-  background-color: #eee;
+  background-color: #486c95;
 }
 
 .projects .card-container .project-card {
@@ -182,6 +191,8 @@ section .section-header {
   max-width: unset;
   margin-left: 25px;
   background-color: #486c95;
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 .card .card-title {
@@ -371,7 +382,6 @@ section .section-header {
 }
 
 .left-text {
-  /* background-color: cornsilk; */
   text-align: center;
   align-self: center;
   margin-top: 140px;
@@ -593,11 +603,6 @@ input[type='submit'] {
     justify-content: center;
   }
 
-  /* .logo {
-    flex: 1;
-    padding-left: 10px;
-  } */
-
   .item {
     width: auto;
     order: 2;
@@ -612,11 +617,6 @@ input[type='submit'] {
 
   .toggle {
     display: none;
-  }
-
-  body {
-    background-color: skyblue;
-    /* min-width: fit-content; */
   }
 
   #home {
@@ -634,9 +634,9 @@ input[type='submit'] {
     margin-top: 0;
   }
 
-  #portfolio {
+  /* #portfolio {
     padding: 50px;
-  }
+  } */
 
   #contact-form input,
   #contact-form textarea {
