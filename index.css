@@ -23,7 +23,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-weight: 700;
-  /* color: #706f6f; */
+  color: #706f6f;
 }
 
 #scrolldiv {
@@ -438,32 +438,24 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0px;
-  /* min-width: fit-content; */
   min-width: 100%;
-  /* max-width: fit-content; */
-  /* border: red 1px solid; */
 }
 
-.edu-row {
-  /* border: 1px blue dashed; */
-  /* max-width: 100%; */
-}
-
-#edu-section .edu-row .edu-container {
+.edu-row .edu-container {
   padding: 15px;
   max-width: 450px;
-  margin: 0 auto;
+  margin: auto;
   min-width: 450px;
 }
 
 .edu-card {
   background-color: #ececec;
   transition: 1.5s ease;
-  height: 175px;
+  height: 145px;
 }
 
 .edu-card:hover {
-  background-color: rgb(48, 130, 164, 65%);
+  background-color: rgb(48 130 164 / 80%);
 }
 
 .edu-img {
@@ -545,7 +537,7 @@ body {
 
 /* //////////////////////////////CONTACT///////////////////////////////////// */
 #contact-row {
-  background-color: rgb(48, 130, 164, 69%);
+  background-color: #486c95;
   padding: 50px;
   align-items: center;
   justify-content: center;
@@ -840,7 +832,7 @@ input[type='submit'] {
   }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
-  /* ///////////////////////////////EDUCATION MOBILE/////////////////////////////////////////// */
+  /* ///////////////////////////////EDUCATION/////////////////////////////////////////// */
   #edu-section {
     background-color: white;
     padding: 0;
@@ -851,32 +843,18 @@ input[type='submit'] {
     margin-bottom: 45px;
   }
 
-  /* #edu-section .edu-row .edu-container {
-    padding: 15px;
-    max-width: 450px;
-    margin: 0 auto;
-    min-width: 450px;
-  }
-  
-  .edu-card {
-    background-color: #ececec;
-    transition: 1.5s ease;
-    height: 175px;
-  } */
-
   #edu-section .edu-row {
-    margin: auto;
+    margin: 0;
   }
 
   .edu-row .edu-container {
     padding: 0;
     min-width: fit-content;
-    margin: 0;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
-  /* ////////////////////////////////ABOUT ME - MOBILE/////////////////////////////////////////// */
+  /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
   #about {
     padding: 0;
   }
