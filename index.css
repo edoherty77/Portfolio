@@ -793,26 +793,18 @@ input[type='submit'] {
     align-items: center;
     justify-content: center;
     margin: 0px;
-    /* min-width: fit-content; */
     min-width: 100%;
-    /* max-width: fit-content; */
-    /* border: red 1px solid; */
   }
 
   #edu-section .edu-row {
     margin: 0;
-    border: deepskyblue 1px solid;
   }
 
   .edu-row .edu-container {
     padding: 0;
     min-width: fit-content;
-    border: deeppink dashed 1px;
   }
 
-  .edu-row .edu-container .edu-card {
-    border: 1px solid black;
-  }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
   /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
