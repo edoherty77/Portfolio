@@ -731,10 +731,8 @@ input[type='submit'] {
   /* ///////////////////////////////HOME/////////////////////////////////////////// */
   #home {
     padding: 0;
-    /* display: table; */
     background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
     background-repeat: no-repeat;
-    /* position: relative; */
     background-position: left top;
     background-size: cover;
     -webkit-background-size: center;
@@ -746,16 +744,15 @@ input[type='submit'] {
     height: 100vh;
     background-attachment: scroll;
     min-width: 100%;
-    /* border: blue 2px solid; */
   }
 
   #home-img {
-    /* margin-top: -100px; */
+    margin-top: 0px;
   }
 
   .home-about {
     padding: 0;
-    width: 100%;
+    /* width: 100%; */
     /* border: black 2px solid; */
   }
 
@@ -763,7 +760,7 @@ input[type='submit'] {
     /* border: green solid 2px; */
     /* min-width: 100%; */
     padding: 0;
-    /* margin-top: -250px; */
+    margin-top: -200px;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
