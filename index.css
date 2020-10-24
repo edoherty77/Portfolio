@@ -124,7 +124,8 @@ body {
 
 #home {
   padding: 50px;
-  background-image: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -153,11 +154,12 @@ body {
 .home-about {
   margin: 10px;
   list-style: none;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   padding-left: 10px;
-  letter-spacing: 1px;
-  text-shadow: 0.6px 0.6px 3px #02a4c9;
+  letter-spacing: 2px;
+  font-weight: 700;
+  /* text-shadow: 0.6px 0.6px 3px #02a4c9; */
 }
 
 .home-about li {
