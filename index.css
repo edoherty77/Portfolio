@@ -374,10 +374,6 @@ body {
   border: 1px purple solid;
 }
 
-#skills-row .card-container .right-div .skills-list {
-  border: lime dashed 1px;
-}
-
 .card-container .skill-card {
   border: red solid 1px;
   margin: auto;
@@ -421,6 +417,10 @@ body {
   padding-left: 60px;
   padding-top: 15px;
   height: 320px;
+}
+
+#skills-row .card-container .right-div .skills-list {
+  border: lime dashed 1px;
 }
 
 .skills-list li {
@@ -710,6 +710,8 @@ input[type='submit'] {
   }
 }
 
+/* MOBILE */
+
 @media screen and (max-width: 768px) {
   html {
     overflow-x: hidden;
@@ -788,6 +790,14 @@ input[type='submit'] {
 
   /* ///////////////////////////////PROJECTS/////////////////////////////////////////// */
 
+  /* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+  /* ///////////////////////////////SKILLS/////////////////////////////////////////// */
+  .right-div {
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 320px;
+  }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
   /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
