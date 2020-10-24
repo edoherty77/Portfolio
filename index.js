@@ -123,7 +123,7 @@ $(document).ready(function () {
     }
 
     scrollLink.each(function () {
-      let sectionOffset = $(this.hash).offset().top - 20
+      let sectionOffset = $(this.hash).offset().top - 100
       if (sectionOffset <= scrollbarLocation) {
         $(this).parent().addClass('active')
         $(this).parent().siblings().removeClass('active')
