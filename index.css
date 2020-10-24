@@ -752,17 +752,18 @@ input[type='submit'] {
     margin-top: 0px;
   }
 
-  .home-about {
-    padding: 0;
-    /* width: 100%; */
-    /* border: black 2px solid; */
-  }
-
   .home-text {
-    /* border: green solid 2px; */
-    /* min-width: 100%; */
     padding: 0;
     margin-top: -200px;
+    text-align: center;
+  }
+
+  .home-about {
+    padding: 0;
+  }
+
+  .home-about li {
+    margin: 10px 0 10px 0;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
