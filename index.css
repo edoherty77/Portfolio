@@ -840,7 +840,7 @@ input[type='submit'] {
   }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
-  /* ///////////////////////////////EDUCATION/////////////////////////////////////////// */
+  /* ///////////////////////////////EDUCATION MOBILE/////////////////////////////////////////// */
   #edu-section {
     background-color: white;
     padding: 0;
@@ -851,6 +851,19 @@ input[type='submit'] {
     margin-bottom: 45px;
   }
 
+  /* #edu-section .edu-row .edu-container {
+    padding: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+    min-width: 450px;
+  }
+  
+  .edu-card {
+    background-color: #ececec;
+    transition: 1.5s ease;
+    height: 175px;
+  } */
+
   #edu-section .edu-row {
     margin: 0;
   }
@@ -858,11 +871,12 @@ input[type='submit'] {
   .edu-row .edu-container {
     padding: 0;
     min-width: fit-content;
+    margin: 0;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
-  /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
+  /* ////////////////////////////////ABOUT ME - MOBILE/////////////////////////////////////////// */
   #about {
     padding: 0;
   }
