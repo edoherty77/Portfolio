@@ -23,6 +23,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-weight: 700;
+  /* color: #706f6f; */
 }
 
 #scrolldiv {
@@ -54,9 +55,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* min-height: 50px; */
   min-height: 8vh;
-  /* background-color: #486c95; */
   background-color: transparent;
   box-sizing: border-box;
   transition: 1s;
@@ -254,8 +253,10 @@ body {
 }
 
 .card .card-text {
-  color: #eee;
+  color: #706f6f;
   font-size: 16px;
+  line-height: 1.5em;
+  font-size: 1.3em;
 }
 
 .projects {
@@ -292,34 +293,9 @@ body {
 }
 
 .carousel-inner {
+  /* background-color: white; */
   background-color: #ececec;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.61);
-}
-
-.card-container .project-card {
-  padding: 30px;
-  background-color: #ececec;
-  height: 680px;
-  min-width: inherit;
-}
-
-.img-container:hover .card-img-top {
-  opacity: 0.5;
-}
-
-.img-container:hover .project-btn {
-  opacity: 1;
-}
-
-.project-btn {
-  position: absolute;
-  bottom: 270px;
-  right: 50px;
-  color: red;
-  opacity: 0;
-
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 .tags {
@@ -329,18 +305,15 @@ body {
 .tags button {
   margin: 5px;
   padding: 9px;
+  border: 1px solid rgb(48, 130, 164);
   border-radius: 10px;
-  color: #486c95;
+  color: rgb(48, 130, 164);
   transition: 1s ease;
   text-align: center;
   letter-spacing: 1px;
   pointer-events: none;
   font-size: 15px;
-  background-color: #eee;
-}
-
-.tags button:hover {
-  background-color: tomato;
+  background-color: white;
 }
 
 .code-link-div {
@@ -476,21 +449,21 @@ body {
   /* max-width: 100%; */
 }
 
-.edu-row .edu-container {
+#edu-section .edu-row .edu-container {
   padding: 15px;
   max-width: 450px;
-  margin: auto;
+  margin: 0 auto;
   min-width: 450px;
-  /* border: solid 1px green; */
 }
 
 .edu-card {
   background-color: #ececec;
   transition: 1.5s ease;
+  height: 175px;
 }
 
 .edu-card:hover {
-  background-color: #486c95;
+  background-color: rgb(48, 130, 164, 65%);
 }
 
 .edu-img {
@@ -572,7 +545,7 @@ body {
 
 /* //////////////////////////////CONTACT///////////////////////////////////// */
 #contact-row {
-  background-color: #486c95;
+  background-color: rgb(48, 130, 164, 69%);
   padding: 50px;
   align-items: center;
   justify-content: center;
@@ -631,7 +604,7 @@ body {
 
 #contact-form input::placeholder,
 #contact-form textarea::placeholder {
-  color: #4d7998;
+  color: #706f6f;
 }
 
 textarea {
@@ -754,7 +727,7 @@ input[type='submit'] {
   /* ///////////////////////////////NAVBAR/////////////////////////////////////////// */
 
   #navbar.white {
-    background-color: rgb(55 147 156 / 80%);
+    background-color: rgb(17 27 29);
   }
 
   .nav-links {
@@ -769,7 +742,7 @@ input[type='submit'] {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     /* background-color: transparent; */
-    background-color: rgb(55 147 156 / 80%);
+    background-color: rgb(17 27 29);
     z-index: 3;
   }
 
@@ -823,7 +796,7 @@ input[type='submit'] {
     margin-top: 30px;
     width: 220px;
     height: 65px;
-    background-color: rgb(55 147 156 / 64%);
+    background-color: rgb(55 147 156 / 34%);
     color: white;
     font-weight: 700;
     letter-spacing: 2px;

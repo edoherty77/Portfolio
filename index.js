@@ -1,16 +1,17 @@
-// Toggle mobile menu
-const toggle = document.querySelector('.toggle')
-const menu = document.querySelector('.menu')
-console.log(menu)
-
 const navSlide = () => {
   const burger = document.querySelector('.burger')
   const nav = document.querySelector('.nav-links')
   const navLinks = document.querySelectorAll('.nav-links li')
+  const navbar = document.querySelector('#navbar')
+  let portfolio = $('#portfolio')
+  let section = portfolio.offset().top - 100
 
   //Toggle Nav
   burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active')
+
+    //Change color of navbar
+    if (section <= scrollbarLocation) navbar.classList.toggle('white')
 
     //Animate Links
     navLinks.forEach((link, index) => {
