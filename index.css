@@ -489,9 +489,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0px;
-  /* min-width: 100%;
-  max-width: 100%; */
   min-width: 100%;
+}
+
+#about .section-header {
+  padding: 0;
 }
 
 .am {
@@ -809,6 +811,9 @@ input[type='submit'] {
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
   /* ////////////////////////////////ABOUT ME/////////////////////////////////////////// */
+  #about {
+    padding: 0;
+  }
   .am-pic-div {
     margin: 10px 0 10px 0;
   }
