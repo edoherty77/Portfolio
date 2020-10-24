@@ -643,8 +643,9 @@ input[type='submit'] {
     margin-top: 0;
   }
 
-  /* #portfolio {
-    padding: 50px;
+  /* .am-pic {
+    width: 200px;
+    height: 200px;
   } */
 
   #contact-form input,
@@ -666,6 +667,8 @@ input[type='submit'] {
   }
 }
 
+/* DESKTOP */
+
 @media only screen and (min-width: 900px) {
   #home {
     padding: 0;
@@ -683,6 +686,7 @@ input[type='submit'] {
     background-attachment: scroll;
     min-width: 100%;
   }
+
   .carousel {
     width: 45%;
     height: 380px;
@@ -820,8 +824,8 @@ input[type='submit'] {
   }
 
   .am-pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 }
