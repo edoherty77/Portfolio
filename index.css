@@ -353,7 +353,6 @@ body {
 
 #skills-section {
   flex-direction: column;
-  /* padding: 50px 0 50px 0; */
   background-color: #eee;
   align-items: center;
   justify-content: center;
@@ -364,11 +363,23 @@ body {
 
 #skills-row {
   max-width: 100%;
-  /* border: solid 1px black; */
+  border: solid 1px blue;
+}
+
+#skills-row .card-container {
+  border: green 1px solid;
+}
+
+#skills-row .card-container .right-div {
+  border: 1px purple solid;
+}
+
+#skills-row .card-container .right-div .skills-list {
+  border: lime dashed 1px;
 }
 
 .card-container .skill-card {
-  /* border: gray solid 1px; */
+  border: red solid 1px;
   margin: auto;
   flex-direction: row;
   padding: 3px;
