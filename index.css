@@ -363,25 +363,14 @@ body {
 
 #skills-row {
   max-width: 100%;
-  border: solid 1px blue;
-}
-
-#skills-row .card-container {
-  border: green 1px solid;
-}
-
-#skills-row .card-container .right-div {
-  border: 1px purple solid;
 }
 
 .card-container .skill-card {
-  border: red solid 1px;
   margin: auto;
   flex-direction: row;
   padding: 3px;
   background-color: white;
   max-width: 670px;
-  /* margin-bottom: 20px; */
 }
 
 .left-div {
@@ -417,10 +406,6 @@ body {
   padding-left: 60px;
   padding-top: 15px;
   height: 320px;
-}
-
-#skills-row .card-container .right-div .skills-list {
-  border: lime dashed 1px;
 }
 
 .skills-list li {
@@ -794,7 +779,7 @@ input[type='submit'] {
 
   /* ///////////////////////////////SKILLS/////////////////////////////////////////// */
   .right-div {
-    padding-left: 0px;
+    padding-left: 8px;
     padding-top: 0px;
     height: 320px;
   }
