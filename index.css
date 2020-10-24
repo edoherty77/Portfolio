@@ -67,8 +67,8 @@ body {
   z-index: 4;
 }
 
-#navbar.black {
-  background-color: #363640;
+#navbar.white {
+  background-color: rgb(48 130 164 / 80%);
 }
 
 .nav-links {
@@ -82,7 +82,7 @@ body {
 #navbar .nav-links a {
   letter-spacing: 3px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -90,18 +90,19 @@ body {
   line-height: 30px;
 }
 
-#navbar.black .nav-links a {
+#navbar.white .nav-links a {
   line-height: 40px;
 }
 
 #navbar .nav-links a:hover,
-#navbar.black .nav-links a:hover,
+#navbar.white .nav-links a:hover,
+#navbar.white .nav-links a,
 #navbar .nav-links li.active a,
 #navbar .nav-links a:hover {
-  color: #dbde51;
   line-height: 50px;
   text-decoration: none;
   font-size: 16px;
+  /* color: #639e96; */
 }
 
 .nav-links li {
@@ -123,9 +124,8 @@ body {
 /* /////////////////////////// HOME ////////////////////////// */
 
 #home {
-  padding: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
-    url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+  padding: 0px;
+  background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1653&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -135,36 +135,72 @@ body {
   margin: 0;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   background-attachment: scroll;
   min-width: 100%;
 }
 
-#home-img {
-  text-align: center;
-  margin-top: 100px;
+#home-div {
+  background-color: rgb(48 130 164 / 57%);
+  height: 95vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
+#name {
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 5px;
+}
+
+#intro-p {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 70%;
+  padding: 20px;
+}
+
+#intro-btn {
+  text-transform: uppercase;
+  margin-top: 30px;
+  width: 200px;
+  height: 65px;
+  background-color: rgb(48 130 164 / 30%);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: white 2px solid;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* 
 #headshot {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
 
+
 .home-about {
-  margin: 10px;
   list-style: none;
   font-size: 30px;
   color: white;
-  padding-left: 10px;
   letter-spacing: 2px;
   font-weight: 700;
-  /* text-shadow: 0.6px 0.6px 3px #02a4c9; */
 }
 
 .home-about li {
   margin: 5px 0 5px 0;
-}
+} */
 
 /* ////////////////////////////////////////////////////////////////// */
 
@@ -183,7 +219,8 @@ body {
   padding: 0;
   margin: 0px;
   min-width: 100%;
-  background-color: #486c95;
+  /* background-color: #486c95; */
+  background-color: white;
 }
 
 #portfolio .projects {
@@ -201,7 +238,8 @@ body {
   /* margin-left: 25px; */
   padding: 0;
   margin: 0;
-  background-color: #486c95;
+  background-color: white;
+  /* background-color: #486c95; */
   border: none;
 }
 
@@ -255,6 +293,7 @@ body {
 
 .carousel-inner {
   background-color: #ececec;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.61);
 }
 
 .card-container .project-card {
@@ -667,8 +706,12 @@ input[type='submit'] {
 @media only screen and (min-width: 900px) {
   #home {
     padding: 0;
-    background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+    background: url(https://images.unsplash.com/photo-1431512284068-4c4002298068?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80);
     background-repeat: no-repeat;
+
+    /* background-position: center;
+    background-size: cover; */
+
     background-position: left top;
     background-size: cover;
     -webkit-background-size: center;
@@ -677,7 +720,7 @@ input[type='submit'] {
     margin: 0;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     background-attachment: scroll;
     min-width: 100%;
   }
@@ -722,7 +765,7 @@ input[type='submit'] {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     /* background-color: transparent; */
-    background-color: #363640;
+    background-color: rgb(55 147 156 / 80%);
     z-index: 3;
   }
 
@@ -739,7 +782,7 @@ input[type='submit'] {
   /* ///////////////////////////////HOME/////////////////////////////////////////// */
   #home {
     padding: 0;
-    background: url(https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+    background: url(https://images.unsplash.com/photo-1580114899690-7df48685ac5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -749,12 +792,44 @@ input[type='submit'] {
     margin: 0;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     background-attachment: scroll;
     min-width: 100%;
   }
 
-  #home-img {
+  #name {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  #intro-p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 90%;
+    /* padding: 20px; */
+  }
+
+  #intro-btn {
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 220px;
+    height: 65px;
+    background-color: rgb(55 147 156 / 64%);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: white 2px solid;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* #home-img {
     margin-top: 0px;
   }
 
@@ -770,7 +845,7 @@ input[type='submit'] {
 
   .home-about li {
     margin: 10px 0 10px 0;
-  }
+  } */
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 

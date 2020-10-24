@@ -115,11 +115,13 @@ $(document).ready(function () {
     //Parallax for background image
     $('#home').css('background-position', 'left ' + scrolledY + 'px')
 
+    let portfolio = $('#portfolio')
+    let section = portfolio.offset().top - 100
     //Change color of navbar
-    if (scrolledY) {
-      $('#navbar').addClass('black')
+    if (section <= scrollbarLocation) {
+      $('#navbar').addClass('white')
     } else {
-      $('#navbar').removeClass('black')
+      $('#navbar').removeClass('white')
     }
 
     scrollLink.each(function () {
