@@ -794,6 +794,7 @@ input[type='submit'] {
     justify-content: center;
     margin: 0px;
     min-width: 100%;
+    margin-bottom: 45px;
   }
 
   #edu-section .edu-row {
