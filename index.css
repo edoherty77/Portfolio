@@ -750,7 +750,7 @@ input[type='submit'] {
   /* ///////////////////////////////HOME/////////////////////////////////////////// */
   #home {
     padding: 0;
-    background: url(https://images.unsplash.com/photo-1580114899690-7df48685ac5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+    background: url(https://images.unsplash.com/photo-1554770197-0e976a59e957?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -787,7 +787,7 @@ input[type='submit'] {
     margin-top: 30px;
     width: 220px;
     height: 65px;
-    background-color: rgb(55 147 156 / 34%);
+    background-color: rgb(55 147 156, 0);
     color: white;
     font-weight: 700;
     letter-spacing: 2px;
