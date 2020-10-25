@@ -166,7 +166,7 @@ body {
   padding: 20px;
 }
 
-#home .home-div #intro-btn {
+#home #home-div #intro-btn {
   text-transform: uppercase;
   margin-top: 30px;
   width: 200px;
@@ -537,7 +537,7 @@ body {
 
 /* //////////////////////////////CONTACT///////////////////////////////////// */
 #contact-row {
-  background-color: #486c95;
+  background-color: rgb(48 130 164 / 80%);
   padding: 50px;
   align-items: center;
   justify-content: center;
@@ -580,7 +580,6 @@ body {
 }
 
 .contact-div {
-  /* border: rebeccapurple 1px solid; */
   text-align: center;
 }
 
