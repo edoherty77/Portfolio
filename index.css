@@ -185,6 +185,11 @@ body {
   align-items: center;
 }
 
+#intro-anchor {
+  text-decoration: none;
+  color: white;
+}
+
 /* 
 #headshot {
   width: 200px;
