@@ -191,26 +191,6 @@ body {
   color: white;
 }
 
-/* 
-#headshot {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-}
-
-
-.home-about {
-  list-style: none;
-  font-size: 30px;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-
-.home-about li {
-  margin: 5px 0 5px 0;
-} */
-
 /* ////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////// Projects /////////////////////////// */
@@ -336,10 +316,13 @@ body {
 
 .code-link {
   font-size: 22px;
-  color: black;
+  color: white;
   font-weight: 700;
   letter-spacing: 1px;
   transition: ease 1s;
+  background-color: rgb(48 130 164 / 80%);
+  padding: 10px;
+  border-radius: 50px;
 }
 
 .code-link:hover {
@@ -806,24 +789,6 @@ input[type='submit'] {
     align-items: center;
     justify-content: center;
   }
-
-  /* #home-img {
-    margin-top: 0px;
-  }
-
-  .home-text {
-    padding: 0;
-    margin-top: -150px;
-    text-align: center;
-  }
-
-  .home-about {
-    padding: 0;
-  }
-
-  .home-about li {
-    margin: 10px 0 10px 0;
-  } */
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
