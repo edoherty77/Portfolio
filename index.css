@@ -740,16 +740,13 @@ input[type='submit'] {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     /* background-color: transparent; */
     background-color: rgb(17 27 29);
     z-index: 3;
-  }
-
-  .nav-links li {
-    opacity: 0;
   }
 
   .burger {
