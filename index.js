@@ -4,7 +4,7 @@ const navSlide = () => {
   const navLinks = document.querySelectorAll('.nav-links li')
   const navbar = document.querySelector('#navbar')
   let portfolio = $('#portfolio')
-  let section = portfolio.offset().top - 100
+  let section = portfolio.offset().top - 75
 
   //Toggle Nav
   burger.addEventListener('click', () => {
@@ -126,7 +126,7 @@ $(document).ready(function () {
     }
 
     scrollLink.each(function () {
-      let sectionOffset = $(this.hash).offset().top - 100
+      let sectionOffset = $(this.hash).offset().top - 200
       if (sectionOffset <= scrollbarLocation) {
         $(this).parent().addClass('active')
         $(this).parent().siblings().removeClass('active')

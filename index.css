@@ -495,6 +495,7 @@ body {
 #about {
   background-color: #ececec;
   padding: 50px;
+  padding-bottom: 0px;
   align-items: center;
   justify-content: center;
   margin: 0px;
@@ -541,7 +542,7 @@ body {
 /* //////////////////////////////CONTACT///////////////////////////////////// */
 #contact-row {
   background-color: rgb(48 130 164 / 80%);
-  padding: 50px;
+  padding: 50px 0 70px 0;
   align-items: center;
   justify-content: center;
   margin: 0px;
@@ -605,8 +606,6 @@ textarea {
   height: 150px;
 }
 
-input[type='submit'] {
-}
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* Tablet view */
