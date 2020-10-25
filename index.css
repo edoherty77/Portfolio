@@ -299,6 +299,8 @@ body {
 
 .tags {
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .tags button {
