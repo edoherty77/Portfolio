@@ -783,7 +783,7 @@ input[type='submit'] {
   }
 
   #home #home-div #intro-btn {
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     margin-top: 30px;
     width: 220px;
     height: 65px;
@@ -795,8 +795,8 @@ input[type='submit'] {
     padding: 40px;
     display: flex;
     align-items: center;
-    text-align: center;
-    /* background-color: black; */
+    text-align: center; */
+    background-color: black;
   }
 
   /* #home-img {
