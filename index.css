@@ -770,7 +770,7 @@ input[type='submit'] {
     font-weight: 700;
     color: white;
     letter-spacing: 3px;
-    padding: 0;
+    padding-bottom: 0;
   }
 
   #intro-p {
@@ -836,7 +836,7 @@ input[type='submit'] {
     justify-content: center;
     margin: 0px;
     min-width: 100%;
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
   }
 
   #edu-section .edu-row {
@@ -846,6 +846,7 @@ input[type='submit'] {
   #edu-section .edu-row .edu-container {
     padding: 0;
     min-width: fit-content;
+    margin-bottom: 45px;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
