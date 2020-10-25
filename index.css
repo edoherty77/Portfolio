@@ -863,9 +863,7 @@ input[type='submit'] {
   }
 
   .solid {
-    border-top: 1px solid lightgray;
-    position: absolute;
-    width: 100%;
+    opacity: 0;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
