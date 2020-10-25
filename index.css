@@ -533,8 +533,6 @@ body {
 .am-text {
   padding: 20px;
   font-size: 18px;
-
-  /* border: hotpink 2px solid; */
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
@@ -865,7 +863,9 @@ input[type='submit'] {
   }
 
   .solid {
-    opacity: 0;
+    border-top: 1px solid lightgray;
+    position: absolute;
+    width: 100%;
   }
 
   /* ///////////////////////////////////////////////////////////////////////////////////////// */
