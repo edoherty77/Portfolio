@@ -17,13 +17,17 @@ body {
   background-color: #eee;
 }
 
-.section-header {
+#portfolio .section-header {
   text-align: center;
   margin: 40px 0 25px 0;
-  text-transform: uppercase;
+
   letter-spacing: 7px;
   font-weight: 700;
   color: #706f6f;
+}
+
+#portfolio .section-header .card-title {
+  text-transform: uppercase;
 }
 
 #scrolldiv {
@@ -248,8 +252,9 @@ body {
 
 .card .card-title {
   margin-bottom: 20px;
-  color: #eee;
+  color: rgb(48 130 164);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .card .card-text {
