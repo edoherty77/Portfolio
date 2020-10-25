@@ -33,7 +33,7 @@ body {
 #scrolldiv {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.6);
   width: 70px;
