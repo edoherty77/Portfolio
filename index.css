@@ -100,13 +100,12 @@ body {
 
 #navbar .nav-links a:hover,
 #navbar.white .nav-links a:hover,
-#navbar.white .nav-links a,
 #navbar .nav-links li.active a,
 #navbar .nav-links a:hover {
   line-height: 50px;
   text-decoration: none;
   font-size: 16px;
-  /* color: #639e96; */
+  color: #f4f759;
 }
 
 .nav-links li {
