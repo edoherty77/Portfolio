@@ -10,6 +10,9 @@ const navSlide = () => {
   burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active')
 
+    //Burger Animation
+    burger.classList.toggle('toggle')
+
     //Change color of navbar
     if (section <= scrollbarLocation) navbar.classList.toggle('white')
 
@@ -23,9 +26,6 @@ const navSlide = () => {
         }s`
       }
     })
-
-    //Burger Animation
-    burger.classList.toggle('toggle')
   })
 
   navLinks.forEach((link) => {
