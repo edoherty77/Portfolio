@@ -184,6 +184,15 @@ body {
   padding: 40px;
   display: flex;
   align-items: center;
+  transition: ease 1s;
+}
+
+#home #home-div #intro-btn:hover {
+  background-color: white;
+}
+
+#home #home-div #intro-btn:hover a {
+  color: rgb(48 130 164);
 }
 
 #intro-anchor {
