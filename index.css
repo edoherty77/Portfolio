@@ -261,7 +261,6 @@ body {
 
 .projects {
   text-align: center;
-
   max-width: 100%;
 }
 
@@ -689,6 +688,10 @@ textarea {
     height: 100vh;
     background-attachment: scroll;
     min-width: 100%;
+  }
+
+  .card .card-text {
+    padding: 0 200px 0 200px;
   }
 
   .carousel {
